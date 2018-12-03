@@ -7,6 +7,15 @@ public class Drzava {
     private String jedinicaZaPovrsinu = null;
     private Grad glavniGrad = null;
 
+    public Drzava(){}
+    public Drzava(String naziv, int brojStanovnika, Double povrsina, String jedinicaZaPovrsinu, Grad glavniGrad){
+        this.naziv = naziv;
+        this.brojStanovnika = brojStanovnika;
+        this.povrsina = povrsina;
+        this.jedinicaZaPovrsinu = jedinicaZaPovrsinu;
+        this.glavniGrad = glavniGrad;
+    }
+
     public String getNaziv() {
         return naziv;
     }

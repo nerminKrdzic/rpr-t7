@@ -5,6 +5,16 @@ public class Grad {
     private int brojStanovnika = 0;
     private Double[] temperature = new Double[1000];
 
+    public Grad(){
+    }
+    public Grad(String naziv, Double[] temperature){
+        for (int i = 0; i < this.temperature.length; i++) {
+            if (temperature != null && i < temperature.length) this.temperature[i] = temperature[i];
+            else this.temperature[i] = 0.;
+        }
+        this.naziv = naziv;
+    }
+
     public String getNaziv() {
         return naziv;
     }

@@ -7,8 +7,10 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.beans.XMLEncoder;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -54,7 +56,7 @@ public class Tutorijal {
         return gradovi;
     }
 
-    public static ArrayList<Drzava> ucitajXml(ArrayList<Grad> gradovi){
+    public static UN ucitajXml(ArrayList<Grad> gradovi){
         ArrayList<Drzava> result = new ArrayList<>();
         Document xmldoc = null;
         try {
@@ -92,7 +94,21 @@ public class Tutorijal {
         } catch (Exception e) {
             System.out.println("drzave.xml nije validan XML dokument");
         }
-        return result;
+        UN un = new UN();
+        un.setDrzave(result);
+        return un;
+    }
+
+    public static void zapisiXml(UN un){
+        XMLEncoder izlaz = null;
+        try{
+            izlaz = new XMLEncoder(new FileOutputStream("un.xml"));
+
+        } catch (FileNotFoundException e){
+
+        } finally {
+            izlaz.close();
+        }
     }
 
     public static void main(String[] args) {

@@ -103,15 +103,15 @@ public class Tutorijal {
         XMLEncoder izlaz = null;
         try{
             izlaz = new XMLEncoder(new FileOutputStream("un.xml"));
-
+            izlaz.writeObject(un);
         } catch (FileNotFoundException e){
-
+            System.out.println("Greska, datoteka nije nadjena");
         } finally {
             izlaz.close();
         }
     }
 
     public static void main(String[] args) {
-        ucitajXml(ucitajGradove());
+        zapisiXml(ucitajXml(ucitajGradove()));
     }
 }

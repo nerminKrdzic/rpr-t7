@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7db90613-9581-425b-bb44-34fe8cede5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Drzava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Drzava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Grad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Tutorijal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Tutorijal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/UN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/UN.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +26,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Tutorijal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="114" column="46" lean-forward="true" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ucitajGradove#0;class#Tutorijal#0" />
                 <element signature="method#ucitajXML#0;class#Tutorijal#0" />
-                <element signature="e#3871#3872#0" expanded="true" />
-                <element signature="e#3913#3914#0" expanded="true" />
+                <element signature="e#5323#5324#0" expanded="true" />
+                <element signature="e#5375#5376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543872368488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543872626191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -221,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543852802627</updated>
-      <workItem from="1543852805010" duration="15906000" />
+      <workItem from="1543852805010" duration="16163000" />
     </task>
     <task id="LOCAL-00001" summary="Kreirao klasu Grad sa traenim atributima">
       <created>1543853738599</created>
@@ -265,11 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543871542551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="popravio return tip metode ucitajXml">
+      <created>1543872497901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543872497901</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15906000" />
+    <option name="totallyTimeSpent" value="16163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -316,7 +320,8 @@
     <MESSAGE value="Kreirao klasu Tutorijal i reimenovao package" />
     <MESSAGE value="Implementirao metodu ucitajGrad u klasi Tutorijal" />
     <MESSAGE value="Kreirao metodu ucitajXml u klasi Tutorijal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kreirao metodu ucitajXml u klasi Tutorijal" />
+    <MESSAGE value="popravio return tip metode ucitajXml" />
+    <option name="LAST_COMMIT_MESSAGE" value="popravio return tip metode ucitajXml" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -469,14 +474,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ba/unsa/rpr/tutorijal7/Tutorijal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        <state relative-caret-position="380">
+          <caret line="114" column="46" lean-forward="true" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ucitajGradove#0;class#Tutorijal#0" />
             <element signature="method#ucitajXML#0;class#Tutorijal#0" />
-            <element signature="e#3871#3872#0" expanded="true" />
-            <element signature="e#3913#3914#0" expanded="true" />
+            <element signature="e#5323#5324#0" expanded="true" />
+            <element signature="e#5375#5376#0" expanded="true" />
           </folding>
         </state>
       </provider>
